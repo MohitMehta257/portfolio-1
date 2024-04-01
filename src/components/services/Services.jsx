@@ -20,7 +20,7 @@ export const Services = () => {
 
 
   return (
-    <motion.div className='services' variants={variants} initial="initial" whileInView="animate">
+    <motion.div className='services' variants={variants} initial="initial" animate={"animate"}>
         <motion.div className="textContainer" variants={variants}>
             <p>I focus on developing app which helps<br/> to grow your brands</p><hr/>
 
